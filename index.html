@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Bage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="./img/b-logo.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--======================================================= Loader ======================================================= -->
+    
+    <!--======================================================= NavBar ======================================================= -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class='bx bx-menu-alt-right'></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item  is_active">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign" href="" data-bs-toggle="modal" data-bs-target="#exampleModal" >Sign In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- ======================================================== Model ========================================================  -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="email" class="col-form-label">ُEnter Your Email: </label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-form-label">Password: </label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <a href="">Forget Your Password?</a>
+              <a href="" class="mx-auto">Sign Up</a>
+              <a href="" class="log">Log In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--======================================================= Header ======================================================= -->
+    <header>
+        <div class="container">
+            <div class="row">
+            <h1 class="text-center header_text">Data Manegment For <br> Data Teams</h1>
+            <form action="" class="email_subscribe">
+                <input type="email" class="email_input" placeholder="Enter Your Email">
+                <a href="" class="button">30 Days Free Trial</a>
+            </form>
+            <p class="text-center header_text">* You will receive an email with a download link of the product</p>
+            </div>
+        </div>
+        <img src="./img/laptop.png" alt="" class="header_img rounded mx-auto d-block">
+    </header>
+    <!--======================================================= Trust ======================================================= -->
+    <section class="trust">
+      <h2 class="text-center h_scroll">Trusted by 100+ World Wide Company</h2>
+      <div class="container">
+        <ul class="text-center">
+          <li><img src="./img/trust.png" alt="" class="img_scroll"></li>
+          <li><img src="./img/trust.png" alt="" class="img_scroll"></li>
+          <li><img src="./img/trust.png" alt="" class="img_scroll"></li>
+          <li><img src="./img/trust.png" alt="" class="img_scroll"></li>
+        </ul>
+      </div>
+    </section>
+    <!--======================================================= Features ======================================================= -->
+    <section class="feature container-fluid" id="feature">
+      <div class="feature_top text-center">
+        <div class="row "><img src="./img/feature.png" alt="feature" class="rounded mx-auto d-block img_scroll-r"></div>
+        <div class="row"><h2 class="text_scroll">All The Features You Need <br> In One Place.</h2></div>
+      </div>
+      <div class="feature_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/maintenance.png" alt="" class="img_scroll-r">
+              <h4 class="text_scroll">Automatic Updates</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/data-storage.png" alt="" class="img_scroll-t">
+              <h4 class="text_scroll">Automatic Updates</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/security.png" alt="" class="img_scroll-l">
+              <h4 class="text_scroll">Secure Your Data</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 d-md-block d-lg-none">
+              <img src="./img/reception.png" alt="" class="img_scroll-l">
+              <h4 class="text_scroll">24/7 Hours Support</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/bell.png" alt="" class="img_scroll-r">
+              <h4 class="text_scroll">Smart Notification</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <img src="./img/writing.png" alt="" class="img_scroll-t">
+              <h4> class="text_scroll"Daily Reports</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 d-md-none d-lg-block">
+              <img src="./img/reception.png" alt="" class="img_scroll-l">
+              <h4 class="text_scroll">24/7 Hours Support</h4>
+              <p class="img_scroll-t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="move_hr">
+      <div class="move text-center">
+        <a href="#tools"><i class="fas fa-chevron-down mover"></i></a>
+      </div>
+    </section>
+    <!--======================================================= Tools ======================================================= -->
+    <section class="tools" id="tools">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6 col-12 order-2 order-lg-1"><img src="./img/message.png" alt="message" class="tool-img img_scroll-l"></div>
+          <div class="col-lg-6 col-12 order-1 order-lg-2 tool-data">
+            <img src="./img/star.png" alt="star" class="img_scroll-r">
+            <h2 class="text_scroll">A Faster Way To Send Message</h2>
+            <p class="img_scroll-t">Sed nec iaculis tortor, ac vulputate augue. Quisque mollis sapien ndit, scelerisque neque eget, finibus justo. Maecenas dapibus uere justo, et pellentesque urna porta et tincidun.</p>
+            <a href="" class="text_scroll">Explore More <i class='bx bx-right-arrow-alt bx-tada' ></i></a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 col-12 tool-data">
+            <img src="./img/place.png" alt="place" class="img_scroll-l">
+            <h2 class="text_scroll">Get Notified About Important Email</h2>
+            <p class="img_scroll-t">Sed nec iaculis tortor, ac vulputate augue. Quisque mollis sapien ndit, scelerisque neque eget, finibus justo. Maecenas dapibus uere justo, et pellentesque urna porta et tincidun.</p>
+            <a href="" class="text_scroll">Explore More <i class='bx bx-right-arrow-alt bx-tada' ></i></a>
+          </div>
+          <div class="col-lg-6 col-12"><img src="./img/notification.png" alt="notification" class="tool-img"></div>
+        </div>
+      </div>
+    </section>
+    <!--======================================================= Pricing ======================================================= -->
+    <section class="pricing">
+      <img src="./img/price.png" alt="dolar" class="rounded mx-auto d-block text_scroll">
+      <h3 class="text-center img_scroll-t">Simple And Transparent Pricing</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-10 offset-1 offset-lg-0 offset-xl-1 col-lg-4">
+            <div class="price-card img_scroll-r">
+              <h5>PERSONAL</h5>
+              <img src="./img/price-1.png" alt="price-1">
+              <p class="price">$29.00</p>
+              <hr class="price-hr">
+              <ul>
+                <li>Print Package</li>
+                <li>1 Photographer</li>
+                <li>300+ Finished Photo</li>
+                <li>300+ Finished Photo</li>
+                <li>Best Editing Quality</li>
+              </ul>
+              <a href="">Start 30 Days Free Trial <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-10 offset-1 offset-lg-0 offset-xl-1 col-lg-4">
+            <div class="price-card img_scroll-r">
+              <h5>STANDARD</h5>
+              <img src="./img/price-2.png" alt="price-2">
+              <p class="price">$39.00</p>
+              <hr class="price-hr">
+              <ul>
+                <li>Print Package</li>
+                <li>1 Photographer</li>
+                <li>300+ Finished Photo</li>
+                <li>300+ Finished Photo</li>
+                <li>Best Editing Quality</li>
+              </ul>
+              <a href="">Start 30 Days Free Trial <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-10 offset-1 offset-lg-0 offset-xl-1 col-lg-4">
+            <div class="price-card img_scroll-r">
+              <h5>TEAM</h5>
+              <img src="./img/price-3.png" alt="price-3">
+              <p class="price">$49.00</p>
+              <hr class="price-hr">
+              <ul>
+                <li>Print Package</li>
+                <li>1 Photographer</li>
+                <li>300+ Finished Photo</li>
+                <li>300+ Finished Photo</li>
+                <li>Best Editing Quality</li>
+              </ul>
+              <a href="">Start 30 Days Free Trial <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="price-button">
+              <p>Yearly</p>
+              <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <p>Monthly</p>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--======================================================= Client ======================================================= -->
+    <section class="client">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="top-client">
+            <img src="./img/comma-2.png" alt="comma" class="rounded mx-auto d-block text_scroll">
+            <h2 class="text-center img_scroll-t">What's Our Client Saying <br> About Application</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/client-1.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Oliver</h5>
+              <span>Web Developer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>        
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-2.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Emma</h5>
+              <span>Web Developer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-3.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>William</h5>
+              <span>UX/UIDesigner</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-4.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Amelia</h5>
+              <span>UX/UIDesigner</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-5.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Lucas</h5>
+              <span>Web Developer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-6.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Mia</h5>
+              <span>Web Developer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-7.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Ethan</h5>
+              <span>UX/UIDesigner</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-8.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>Charlotte</h5>
+              <span>UX/UIDesigner</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/client-9.png" alt="" class="mx-auto d-block">
+              <div class="client-info text-center">
+              <h5>James</h5>
+              <span>Web Developer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu. Class aptent taciti sociosq.</p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--======================================================= App ======================================================= -->
+    <section class="app">
+      <h2 class="text-center img_scroll-t">150+ App Intregration To Makes <br>  More Producthon</h2>
+      <ul class="text-center img_scroll-l">
+        <li><img src="./img/google.png"     alt="google"></li>
+        <li><img src="./img/g-play.png"     alt="g-play"></li>
+        <li><img src="./img/chrom.png"      alt="chrom"></li>
+        <li><img src="./img/microsoft.png"  alt="microsoft"></li>
+        <li><img src="./img/skype.png"      alt="skype"></li>
+      </ul>
+      <ul class="text-center img_scroll-t">
+        <li><img src="./img/github.png"     alt="github"></li>
+        <li><img src="./img/vertical.png"   alt="vertical"></li>
+        <li><img src="./img/instagram.png"  alt="instagram"></li>
+        <li><img src="./img/whats.png"      alt="whats"></li>
+      </ul>
+    </section>
+    <!--======================================================= Question ======================================================= -->
+    <section class="question">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="q-data">
+              <img src="./img/where.png" alt="where" class="img_scroll-l">
+              <h2 class="img_scroll-t">Some Of Common Question</h2>
+              <p class="img_scroll-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item scroll_1">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1. What is Luke App?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item scroll_2">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2. How do i make a premium user?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item scroll_3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3. How can i use it?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item scroll_4">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    4. Is this App suitable for your Team?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--======================================================= Inprove ======================================================= -->
+    <section class="inprove">
+      <div class="container">
+        <div class="inprove-content text-center">
+          <h2>Inprove Your Productivity</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit.</p>
+          <a href="" class="free-btn">Start Free trial</a>
+          <a href="" class="serv-btn">Our Services</a>
+        </div>
+      </div>
+    </section>
+    <!--======================================================= footer ======================================================= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+              <img src="./img/b-logo.png" alt="logo">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur luctus tellus, a aliquam tellus mattis ut. Vestibulum bibendum efficitur felis non blandit. Nullam sed pulvinar arcu.</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Feature</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Career</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+              <h4>Product</h4>
+              <ul>
+                <li><a href="">Application</a></li>
+                <li><a href="">Api Keys</a></li>
+                <li><a href="">Desktop App</a></li>
+                <li><a href="">IOS App</a></li>
+                <li><a href="">Apk Apps</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-12">
+              <h4>Plan</h4>
+              <ul>
+                <li><a href="">Basic Plan</a></li>
+                <li><a href="">Business Plan</a></li>
+                <li><a href="">Pro Plan</a></li>
+                <li><a href="">Custom Package</a></li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+          <p class="copyright text-center py-2">All Rights Reseved &copy; Mo.Hassan</p>
+        </div>
+        <!--======================================================= Scroll Up Button ======================================================= -->
+        <div class="scrolltop float-right" id="myBtn">
+          <i class="fa fa-arrow-up"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
