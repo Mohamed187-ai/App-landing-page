@@ -43,6 +43,7 @@ a{
 .navbar-nav li a {
     color: white;
     margin-right: 5px;
+    cursor: pointer;
 }
 .navbar-nav li.is_active{
     border-top: 2px solid white;
@@ -53,10 +54,8 @@ a{
     background-color: #2dca73;
     border-radius: 20px;
     padding: 8px 30px !important;
-}
-.nav-item{
     cursor: pointer;
-
+}
 .navbar i{
     color: #fff;
     font-size: 3rem;
